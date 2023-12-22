@@ -54,7 +54,7 @@ const openKeys5 = ref(["1"])
           系统设置
         </lay-menu-item>
       </router-link>
-      <router-link to="/dictionary-config">
+      <router-link to="/setting-dict">
         <lay-menu-item id="8">
           <lay-icon type="layui-icon-template-one"></lay-icon>
           字典配置
