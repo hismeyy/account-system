@@ -48,7 +48,7 @@ const openKeys5 = ref(["1"])
         <lay-icon type="layui-icon-set"></lay-icon>
         设置
       </template>
-      <router-link to="/system-setting">
+      <router-link to="/setting-system">
         <lay-menu-item id="7">
           <lay-icon type="layui-icon-util"></lay-icon>
           系统设置

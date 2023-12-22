@@ -3,6 +3,7 @@ import Table from '../views/table/table-index.vue';
 import Scene from '../views/account/scene/scene-index.vue';
 import Wallet from '../views/account/wallet/wallet-index.vue';
 import Wish from "@/views/wish/wish-index.vue";
+import System from "@/views/setting/system/system-index.vue";
 
 const routes = [
     {
@@ -24,6 +25,12 @@ const routes = [
         path: '/wish',
         name: 'Wish',
         component: Wish,
+    }
+    ,
+    {
+        path: '/setting-system',
+        name: 'System',
+        component: System,
     }
 ];
 
