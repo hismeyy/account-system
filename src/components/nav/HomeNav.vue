@@ -36,7 +36,7 @@ const openKeys5 = ref(["1"])
       </router-link>
     </lay-sub-menu>
 
-    <router-link to="/wish-list">
+    <router-link to="/wish">
       <lay-menu-item id="5">
         <lay-icon type="layui-icon-heart"></lay-icon>
         愿望清单

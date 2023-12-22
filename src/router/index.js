@@ -2,6 +2,7 @@ import {createRouter, createWebHistory} from 'vue-router';
 import Table from '../views/table/table-index.vue';
 import Scene from '../views/account/scene/scene-index.vue';
 import Wallet from '../views/account/wallet/wallet-index.vue';
+import Wish from "@/views/wish/wish-index.vue";
 
 const routes = [
     {
@@ -18,6 +19,11 @@ const routes = [
         path: '/account-wallet',
         name: 'Wallet',
         component: Wallet,
+    },
+    {
+        path: '/wish',
+        name: 'Wish',
+        component: Wish,
     }
 ];
 
