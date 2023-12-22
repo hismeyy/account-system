@@ -28,7 +28,7 @@ const openKeys5 = ref(["1"])
           场景化
         </lay-menu-item>
       </router-link>
-      <router-link to="/wallet-management">
+      <router-link to="/account-wallet">
         <lay-menu-item id="4">
           <lay-icon type="layui-icon-senior"></lay-icon>
           个人钱包
