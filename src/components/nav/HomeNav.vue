@@ -22,7 +22,7 @@ const openKeys5 = ref(["1"])
         <lay-icon type="layui-icon-rmb"></lay-icon>
         财务管理
       </template>
-      <router-link to="/scenario-based">
+      <router-link to="/account-scene">
         <lay-menu-item id="3">
           <lay-icon type="layui-icon-layer"></lay-icon>
           场景化
