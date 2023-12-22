@@ -10,7 +10,7 @@ const openKeys5 = ref(["1"])
 <template>
   <lay-menu v-model:open-keys="openKeys5" v-model:selected-key="selectedKey" v-model:tree="isTree">
     <h1>Max理财系统</h1>
-    <router-link to="/financial-report">
+    <router-link to="/">
       <lay-menu-item id="1">
         <lay-icon type="layui-icon-chart"></lay-icon>
         财务报表
